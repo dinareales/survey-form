@@ -140,3 +140,20 @@ h1:after{
 .button:hover{
     background-color: #ffa726;
 }
+
+@media screen and (max-width: 800px) {
+    .container{
+        padding:20px 20px;
+    }
+    .contact-box{
+        grid-template-columns: 1fr;
+    }
+    .left{
+        height: 200px;
+    }
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+        text-align: start;
+    }
+}
